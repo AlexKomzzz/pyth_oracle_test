@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "dist",
+    "rootDir": "src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pythnetwork/pyth-sui-js/node_modules/@mysten/sui.js/*": [
+        "node_modules/@pythnetwork/pyth-sui-js/node_modules/@mysten/sui.js/*"
+      ]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
